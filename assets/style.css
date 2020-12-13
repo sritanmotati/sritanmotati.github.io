@@ -855,3 +855,7 @@ i.arrow {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.in-ref {
+  text-decoration: underline !important;
+}
