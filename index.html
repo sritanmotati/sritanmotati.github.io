@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Sritan Motati's personal website">
+    <meta name="keywords" content="Sritan, Motati, sritanmotati">
+    <meta name="author" content="Sritan Motati">
+
+    <!-- CSS & Favicon --> 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    
+    <title>Sritan Motati</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="./assets/img/spinner.svg" alt="spinner">
+    </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+      </div>
+    </nav>
+    <div class="container" style="margin-top: 12vh">
+      <div class="header header-index">
+        <h1 class="title"><strong>Sritan Motati</strong></h1>
+        <h2 class="subtitle typewrite" data-period="2000" data-type='["biology enthusiast.", "developer.", "blogger.", "programmer.", "student."]'></h2>
+        <div onclick="scrollAbout()" class="icon-scroll"></div>
+        <script>
+          function scrollAbout() {
+            document.getElementById('about').scrollIntoView(true);
+          }
+        </script>
+      </div>
+      <div class="row row-cols-1 row-cols-row-1" id="about">
+        <div class="col mb-4">
+          <div class="card h-100 dark-mode education about" style="margin-left: 0;">
+            <div class="text"><!--<img src="./assets/img/me.jpg" alt="Sritan" align="left">-->
+              <h2 class="card-title">About Me</h2>
+              <p class="card-text">
+                Hi! My name is Sritan Motati, and I am a freshman at Thomas Jefferson
+                High School for Science and Technology. I am interested in biology, medicine, and programming, specifically machine learning and web development. <br><br>In my free time, I enjoy playing basketball 
+                and badminton and taking photos. I also co-founded TechTalkers, a blog on
+                <a href="https://medium.com/techtalkers" target="_blank" class="medium-ref">Medium</a> 
+                that writes about the latest science and technology.
+              </p>
+            </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-rows-1">
+          <div class="col mb-4">
+            <div class="card h-100 dark-mode education">
+              <h2 class="card-title">Education</h2>
+              <hr class="card-hr">
+              <div class="edu-item" style="margin-top: 0;">
+                <img src="./assets/img/tjhsst.jpg" alt="TJHSST Logo" align="right" style="border-radius: 50%;">
+                <p class="years">2020 - Present</p>
+                <h3 class="card-subtitle">Thomas Jefferson High School for Science and Technology</h3>
+                <div class="card-content">
+                  <ul>
+                    <li>Freshman at TJHSST</li>
+                    <li>Advanced courses taken/taking: Data Structures with AP Computer Science A</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row cards">
+        <div class="col mb-4">
+          <div class="card h-100 dark-mode">
+            <img src="./assets/img/TechTalkers Banner.png" class="card-img-top" alt="TechTalkers Logo" />
+            <div class="card-body">
+              <h5 class="card-title">TechTalkers</h5>
+              <p class="card-text">Co-founded TechTalkers, a science and technology blog on Medium. We write about the most interesting innovations in science and tech.</p>
+              <a class="btn btn-success btn-lg tt-btn" href="https://techtalkers.github.io" target="_blank">TechTalkers</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 dark-mode">
+            <img
+              src='https://p1cdn4static.sharpschool.com/UserFiles/Servers/Server_20337961/Image/biology.jpg'
+              class="card-img-top"
+              alt="Science"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Interests</h5>
+              <p class="card-text">
+                <ul>
+                  <li>Biology and medicine</li>
+                  <li>AI and machine learning</li>
+                  <li>Blogging</li>
+                  <li>Photography</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-rows-1" style="margin-bottom: 2rem;">
+        <div class="col mb-4">
+          <div class="card h-100 dark-mode education">
+            <h2 class="card-title">Skills</h2>
+            <hr class="card-hr">
+            <div class="skills">
+              <div class="edu-item" style="margin-top: 0">
+                <h3>Computer Science</h3>
+                <hr>
+                <div class="langs">
+                  <div class="lang-items">
+                    <i class="devicon-java-plain java" data-toggle="tooltip" data-placement="top" title="Java"></i>
+                    <i class="devicon-python-plain colored" data-toggle="tooltip" data-placement="top" title="Python"></i>
+                    <i class="devicon-cplusplus-plain cpp" data-toggle="tooltip" data-placement="top" title="C++"></i>
+                    <i class="devicon-mysql-plain colored" data-toggle="tooltip" data-placement="top" title="MySQL"></i>
+                    <i class="devicon-javascript-plain colored" data-toggle="tooltip" data-placement="top" title="JavaScript"></i> 
+                    <i class="devicon-git-plain colored" data-toggle="tooltip" data-placement="top" title="Git"></i>
+                  </div>  
+                  <p>These are the technologies I use for web automation, programming, data analysis, and managing relational databases (MySQL).</p>            
+                </div>
+              </div>
+              <div class="edu-item">
+                <h3>Web Development</h3>
+                <hr>
+                <div class="langs">
+                  <div class="lang-items">
+                    <i class="devicon-html5-plain-wordmark colored" data-toggle="tooltip" data-placement="top" title="HTML"></i>
+                    <i class="devicon-css3-plain-wordmark colored" data-toggle="tooltip" data-placement="top" title="CSS"></i>
+                    <i class="devicon-bootstrap-plain colored" data-toggle="tooltip" data-placement="top" title="Bootstrap"></i>
+                    <i class="devicon-react-original colored" data-toggle="tooltip" data-placement="top" title="React.js"></i>
+                    <i class="devicon-jquery-plain-wordmark colored" data-toggle="tooltip" data-placement="top" title="jQuery"></i>
+                    <img src="https://img.icons8.com/color/75/000000/firebase.png" alt="Firebase" data-toggle="tooltip" data-placement="top" title="Firebase">
+                    <i class="devicon-nodejs-plain colored" data-toggle="tooltip" data-placement="top" title="Node.js"></i>
+                    <i class="devicon-express-original" data-toggle="tooltip" data-placement="top" title="Express.js"></i>
+                    <i class="devicon-mongodb-plain colored"  data-toggle="tooltip" data-placement="top" title="MongoDB"></i>
+                  </div>
+                  <p>These are my preferred technologies for front-end and back-end web development.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/subtitle.js"></script>
+    <script src="./assets/js/loader.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/sweet-scroll-min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
+    </script>
+  </body>
+</html>
